@@ -14,5 +14,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ROKBASSS/week3/issues"
+  },
+  "homepage": "https://github.com/ROKBASSS/week3#readme"
 }
