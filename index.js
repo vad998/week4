@@ -27,7 +27,7 @@ const server = http.createServer(async(request,response)=>{
     }));
   }
   
-  res.end();
+  response.end();
 });
 
 const PORT = process.env.PORT || 3000;
