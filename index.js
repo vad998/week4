@@ -30,4 +30,7 @@ const server = http.createServer(async(request,response)=>{
   res.end();
 });
 
-server.listen(4321,()=>{console.log('Server is running')});
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
